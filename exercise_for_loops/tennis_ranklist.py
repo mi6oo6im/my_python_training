@@ -1,18 +1,28 @@
-num_tabs = int(input())
-salary = float(input())
+import math
 
-web_deduction = {
-    "Facebook": 150,
-    "Instagram": 100,
-    "Reddit": 50
-}
+tournaments = int(input())
+starting_points = int(input())
+points_won = 0
+average_points = 0
+tournaments_won = 0
+percentage_won = 0
 
-for i in range(num_tabs):
-    web_page = input()
-    if web_page in ("Facebook", "Instagram", "Reddit"):
-        salary -= web_deduction[web_page]
-        if salary <= 0:
-            print("You have lost your salary.")
-            break
-if salary > 0:
-    print(f"{salary:.0f}")
+
+for i in range(tournaments):
+    staging = input()
+    if staging == "W":
+        tournaments_won += 1
+        points_won += 2000
+    elif staging == "F":
+        points_won += 1200
+    elif staging == "SF":
+        points_won += 720
+
+final_points = starting_points + points_won
+average_points = math.floor(points_won / tournaments)
+percentage_won = tournaments_won / tournaments * 100
+
+# outputs
+print(f"Final points: {final_points}")
+print(f"Average points: {average_points:.0f}")
+print(f"{percentage_won:.2f}%")
