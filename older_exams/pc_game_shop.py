@@ -1,25 +1,27 @@
-import math
+number_games_sold = int(input())
+Hearthstone = 0
+Fornite = 0
+Overwatch = 0
+Others = 0
 
-height = int(input())
-width = int(input())
-percent_excluded = int(input())
-area = height * width
-total_area_to_cover = math.ceil(area * 4 * (1 - percent_excluded / 100))
-walls_are_painted = False
-left_paint = 0
-command = input()
-while command != "Tired!":
-    liters = int(command)
-    total_area_to_cover -= liters
-    if total_area_to_cover <= 0:
-        walls_are_painted = True
-        left_paint = abs(total_area_to_cover)
-        break
-    command = input()
-else:
-    print(f"{total_area_to_cover} quadratic m left.")
+for game in range (number_games_sold):
+    title = input()
+    if title == "Hearthstone":
+        Hearthstone += 1
+    elif title == "Fornite":
+        Fornite += 1
+    elif title == "Overwatch":
+        Overwatch += 1
+    else:
+        Others += 1
 
-if walls_are_painted and left_paint:
-    print(f"All walls are painted and you have {left_paint} l paint left!")
-elif walls_are_painted and not left_paint:
-    print("All walls are painted! Great job, Pesho!")
+Hearthstone_percent = round(Hearthstone / number_games_sold * 100, 2)
+Fornite_percent = round(Fornite / number_games_sold * 100, 2)
+Overwatch_percent = round(Overwatch / number_games_sold * 100, 2)
+Others_percent = round(Others / number_games_sold * 100, 2)
+
+
+print(f"Hearthstone - {Hearthstone_percent:.2f}%")
+print(f"Fornite - {Fornite_percent:.2f}%")
+print(f"Overwatch - {Overwatch_percent:.2f}%")
+print(f"Others - {Others_percent:.2f}%")
