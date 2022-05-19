@@ -8,3 +8,4 @@ After each move, the opponent gives the number of matches.
 
 The game is played until you guess correctly the opponent's number or until you type 'Uncle!' in the console. If a digit of the guess is contained in the secret number and is in the right place, it is 'bull', if it is in a different place, it is 'cow'.
 
+![Alt text](/relative/path/to/screenshot.png?raw=true "Cows and Bulls")
