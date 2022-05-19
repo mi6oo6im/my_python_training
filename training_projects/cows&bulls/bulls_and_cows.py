@@ -19,13 +19,17 @@ guess = input('Make your 4-digit number guess or cry "Uncle!": ')
 is_chicken = True
 counter = 0
 while guess != 'Uncle!':
+    number_is_wrong = False
     new_guess_list = list(guess)
     for _ in range(4):
         check = new_guess_list.pop(0)
-        if check in new_guess_list or guess[0] == '0':
-            print(f'The number you have entered {guess} has repeating digits or starts with 0, please try again!\n')
+        if check in new_guess_list or guess[0] == '0' or len(guess) != 4:
+            print(f'The number you have entered {guess} has repeating digits,starts with 0 or is not 4-digit number, please try again!\n')
             guess = input('Make your guess or cry "Uncle!": ')
-            continue
+            number_is_wrong = True
+            break
+    if number_is_wrong:
+        continue
     counter += 1
     cows = 0
     bulls = 0
