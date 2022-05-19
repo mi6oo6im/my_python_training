@@ -1,6 +1,6 @@
 import random
 # the rules
-print("\nBulls and Cows is a logic game for guessing numbers. It is played by two opponents, each trying to guess the secret 4-digit number and all four digits have to be different. invented by the other.\nAfter each move, the opponent gives the number of matches.")
+print("\nBulls and Cows is a logic game for guessing numbers. It is played by two opponents, each trying to guess the secret 4-digit number (without repeating digit) invented by the other.\nAfter each move, the opponent gives the number of matches.")
 print("The game is played until you guess correctly the opponent's number or until you type 'Uncle!' in the console.")
 print("If a digit of the guess is contained in the secret number and is in the right place, it is 'bull', if it is in a different place, it is 'cow'.\n")
 # computer's generated 4-digit number
