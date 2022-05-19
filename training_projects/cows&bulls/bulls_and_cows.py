@@ -6,6 +6,8 @@ print("If a digit of the guess is contained in the secret number and is in the r
 # computer's generated 4-digit number
 num_list = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
 random.shuffle(num_list)
+while num_list[0] == '0':
+    random.shuffle(num_list)
 number_to_guess = []
 for _ in range(4):
     number_to_guess.append(num_list.pop(0))
@@ -20,8 +22,8 @@ while guess != 'Uncle!':
     new_guess_list = list(guess)
     for _ in range(4):
         check = new_guess_list.pop(0)
-        if check in new_guess_list:
-            print(f'The number you have entered {guess} has repeating digits, please try again!\n')
+        if check in new_guess_list or guess[0] == '0':
+            print(f'The number you have entered {guess} has repeating digits or starts with 0, please try again!\n')
             guess = input('Make your guess or cry "Uncle!": ')
             continue
     counter += 1
