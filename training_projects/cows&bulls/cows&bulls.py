@@ -11,17 +11,24 @@ print(number_to_guess_string)
 cows = 0;
 bulls = 0;
 # input
-guess_list =[]
-guess = input('Make your guess: ')
-guess_list.append(guess)
-if guess == number_to_guess_string:
-    print('You win!')
-else:
-    for i, j in enumerate(guess):
-        if j == number_to_guess[i]:
-            bulls += 1
-        elif j in number_to_guess:
-            cows += 1
-    print('Try again!')
-    print(f'cows: {cows}; bulls: {bulls}')
-    print(f'your guesses so far: {guess_list}')
+guess_list = []
+guess = input('Make your guess or cry "Uncle!": ')
+is_chicken = True
+while guess != 'Uncle!':
+    guess_list.append(guess)
+    if guess == number_to_guess_string:
+        print(f'You win! {guess} is the correct number!')
+        is_chicken = False
+        break
+    else:
+        for i, j in enumerate(guess):
+            if j == number_to_guess[i]:
+                bulls += 1
+            elif j in number_to_guess:
+                cows += 1
+        print('Try again or cry "Uncle!"')
+        print(f'cows: {cows}; bulls: {bulls}')
+        print(f'your guesses so far: {guess_list}')
+    guess = input('Make your guess or cry "Uncle!": ')
+if is_chicken:
+    print('You chickened out!')
