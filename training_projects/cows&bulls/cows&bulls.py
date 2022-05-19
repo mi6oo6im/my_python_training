@@ -26,9 +26,9 @@ while guess != 'Uncle!':
                 bulls += 1
             elif j in number_to_guess:
                 cows += 1
-        print('Try again or cry "Uncle!"')
+        print('Try again or cry "Uncle!"\n')
         print(f'cows: {cows}; bulls: {bulls}')
-        print(f'your guesses so far: {guess_list}')
+        print(f'your guesses so far: {guess_list} \n')
     guess = input('Make your guess or cry "Uncle!": ')
 if is_chicken:
     print('You chickened out!')
