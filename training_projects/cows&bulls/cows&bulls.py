@@ -1,8 +1,8 @@
 import random
 # the rules
-print("\nBulls and Cows is a logic game for guessing numbers. It is played by two opponents, each trying to guess the secret 4-digit number invented by the other.\nAfter each move, the opponent gives the number of matches.")
+print("\nBulls and Cows is a logic game for guessing numbers. It is played by two opponents, each trying to guess the secret 4-digit number and all four digits have to be different. invented by the other.\nAfter each move, the opponent gives the number of matches.")
 print("The game is played until you guess correctly the opponent's number or until you type 'Uncle!' in the console.")
-print("if a digit of the guess is contained in the secret number and is in the right place, it is 'bull', if it is in a different place, it is 'cow'.\n")
+print("If a digit of the guess is contained in the secret number and is in the right place, it is 'bull', if it is in a different place, it is 'cow'.\n")
 # computer's generated 4-digit number
 num_list = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
 random.shuffle(num_list)
@@ -17,6 +17,13 @@ guess = input('Make your 4-digit number guess or cry "Uncle!": ')
 is_chicken = True
 counter = 0
 while guess != 'Uncle!':
+    new_guess_list = list(guess)
+    for _ in range(4):
+        check = new_guess_list.pop(0)
+        if check in new_guess_list:
+            print(f'The number you have entered {guess} has repeating digits, please try again!\n')
+            guess = input('Make your guess or cry "Uncle!": ')
+            continue
     counter += 1
     cows = 0
     bulls = 0
