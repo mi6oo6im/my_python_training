@@ -1,4 +1,4 @@
-Replit:
+Replit demo:
 https://replit.com/@mi6oo6im/trainingprojects#cows_and_bulls.py
 
 Rules:
