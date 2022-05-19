@@ -4,7 +4,7 @@
 https://replit.com/@mi6oo6im/trainingprojects#cows_and_bulls.py
 
 ##Rules:
-Bulls and Cows is a logic game for guessing numbers. It is played by two opponents, each trying to guess the secret 4-digit number (without repeating digit) invented by the other. 
+Bulls and Cows is a logic game for guessing numbers. It is played by two opponents, each trying to guess the secret 4-digit number (without repeating digit and cannot have 0 as a starting number) invented by the other. 
 
 After each move, the opponent gives the number of matches.
 
