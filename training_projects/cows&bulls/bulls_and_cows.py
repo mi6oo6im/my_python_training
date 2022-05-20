@@ -15,7 +15,7 @@ number_to_guess = []
 for _ in range(4):
     number_to_guess.append(num_list.pop(0))
 number_to_guess_string = ''.join(number_to_guess)
-print(number_to_guess_string)
+# print(number_to_guess_string)
 # input
 guess_list = []
 guess = input('Make your 4-digit number guess or cry "Uncle!": ')
