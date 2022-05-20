@@ -15,7 +15,7 @@ number_to_guess = []
 for _ in range(4):
     number_to_guess.append(num_list.pop(0))
 number_to_guess_string = ''.join(number_to_guess)
-# print(number_to_guess_string)
+print(number_to_guess_string)
 # input
 guess_list = []
 guess = input('Make your 4-digit number guess or cry "Uncle!": ')
@@ -39,7 +39,7 @@ while guess != 'Uncle!':
     bulls = 0
     guess_list.append(guess)
     if guess == number_to_guess_string:
-        print(f'You win! {guess} is the correct number after {counter} attempts!')
+        print(f'You win! \n{guess} is the correct number after {counter} attempts!\n')
         is_chicken = False
         break
     else:
@@ -54,3 +54,9 @@ while guess != 'Uncle!':
     guess = input('Make your guess or cry "Uncle!": ')
 if is_chicken:
     print(f'You chickened out after {counter} attempts!')
+else:
+    num_symbols = 5
+    for i in range(1, num_symbols + 1, 2):
+        print(int((num_symbols - i) / 2) * ' ' + i * '*' + int((num_symbols - i) / 2) * ' ')
+    for i in range(num_symbols - 2, 0, -2):
+        print(int((num_symbols - i) / 2) * ' ' + i * '*' + int((num_symbols - i) / 2) * ' ')
