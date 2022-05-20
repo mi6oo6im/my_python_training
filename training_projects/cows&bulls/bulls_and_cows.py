@@ -26,7 +26,7 @@ while guess != 'Uncle!':
     new_guess_list = list(guess)
     for _ in range(4):
         check = new_guess_list.pop(0)
-        if check in new_guess_list or guess[0] == '0' or len(guess) != 4 or guess.isdigit() != True:
+        if check in new_guess_list or guess[0] == '0' or len(guess) != 4 or not guess.isdigit():
             print(
                 f'The number you have entered {guess} has repeating digits,starts with 0 or is not a 4-digit number, please try again!\n')
             guess = input('Make your guess or cry "Uncle!": ')
