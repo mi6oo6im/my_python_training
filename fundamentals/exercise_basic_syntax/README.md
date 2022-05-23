@@ -1,0 +1,2 @@
+# Basic Syntax Exercise
+### Judge: https://judge.softuni.org/Contests/Compete/Index/1719#0
