@@ -1,2 +1,2 @@
-# Basic Syntax Training
-### Judge: https://judge.softuni.org/Contests/Practice/Index/1718#0
+# Data Types Training
+### Judge: https://judge.softuni.org/Contests/Practice/Index/1721#0
