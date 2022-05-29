@@ -60,7 +60,7 @@ pairs = [
 
 # default message at the start of chat
 print("\nWelcome to our new automated IT support powered by NLTK an open source Natural Language Processing toolkit. ",
-      "\n\nPlease start by typing 'Hello, my name is...'\nType 'quit' to leave this chat.")
+      "\n\nPlease start by typing 'Hello, my name is...'\n\nType 'quit' to leave this chat.\n")
 
 # Create Chat Bot
 chat = Chat(pairs, reflections)
