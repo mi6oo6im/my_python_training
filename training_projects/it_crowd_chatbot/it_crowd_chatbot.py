@@ -10,8 +10,8 @@ pairs = [
          ]
     ],
     [
-        r"(.*)(computer|browser|program|keyboard|mouse|laptop|monitor|printer|phone|tablet) "
-        r"(.*) (not working|broken|stopped|crashed|down)(.*)",
+        r"(.*)(computer|browser|program|keyboard|mouse|laptop|monitor|printer|phone|tablet)"
+        r"(.*)(not working|broke|broken|stopped|crashed|down)(.*)",
         ["Did you try turning it off and on again?", "Did you change anything recently?",
          "Are there any flashing lights?", "Are you sure it's turned on?",
          "Did you try jiggling the cables! Did it work?",
@@ -33,14 +33,14 @@ pairs = [
          "Try turning it off and on again! Did it work?"]
     ],
     [
-        r"(.*)(works|working|ok|fine|OK|Ok|properly|)(.*)",
-        ["I'm glad this is resolved, %3, please type 'quit' and leave us your feedback!",
-         "Great to hear, %3! Have a swell day, mate! Please type 'quit' and leave us your feedback!",
+        r"(.*) (works|worked|working|ok|fine|OK|Ok|properly)(.*)",
+        ["I'm glad this is resolved, please type 'quit' and leave us your feedback!",
+         "Great to hear! Have a swell day, mate! Please type 'quit' and leave us your feedback!",
          "You're welcome mate! Please type 'quit' and leave us your feedback!",
-         "See how easy it was, %3, next time you can do it yourself!Please type 'quit' and leave us your feedback!"]
+         "See how easy it was, next time you can do it yourself! Please type 'quit' and leave us your feedback!"]
     ],
     [
-        r"(.*) (question|query|ask|check|browse|) (.*)",
+        r"(.*) (question|query|ask|check|browse)(.*)",
         ["I'm sorry, your %2 is out of the scope of IT chatbot, please forward your %2 to our customer support:\n "
          "email: support@itcrowd.co.uk"]
     ],
