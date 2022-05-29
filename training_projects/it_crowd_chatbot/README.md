@@ -2,6 +2,7 @@
 
 ### Replit demo:
 https://replit.com/@mi6oo6im/itcrowdchatbot#it_crowd_chatbot.py
+note: it takes up to a minute for Replit to install the nltk libraries when you run it the first time.
 
 ### Description:
 Inspired by the 90's TV show ["IT crowd"](https://www.youtube.com/watch?v=wSAtLkuuNJE) IT Crowd is an attempt of a funny version of a IT
