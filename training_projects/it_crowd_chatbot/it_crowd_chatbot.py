@@ -40,7 +40,7 @@ pairs = [
     ],
     [
         r"(.*)",
-        ["I'm sorry, this is out of the scope of IT chatbot, please log a ticket and type 'quit' to exit the chat or"
+        ["I'm sorry, this is out of the scope of IT chatbot, please log a ticket and type 'quit' to exit the chat or "
          "rephrase your question."]
     ],
 ]
