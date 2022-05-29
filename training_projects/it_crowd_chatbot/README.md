@@ -1,7 +1,7 @@
 # IT Crowd chatbot
 
 ### Replit demo:
-https://replit.com/@mi6oo6im/itcrowdchatbot#it_crowd_chatbot.py
+https://replit.com/@mi6oo6im/itcrowdchatbot#it_crowd_chatbot.py <br>
 note: it takes up to a minute for Replit to install the nltk libraries when you run it the first time.
 
 ### Description:
