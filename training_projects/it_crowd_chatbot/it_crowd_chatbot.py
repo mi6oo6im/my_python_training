@@ -24,7 +24,7 @@ pairs = [
     [
         r"(.*)(no|No|NO)(.*)",
         [colored("Try jiggling the cables! Did it work?", "blue"),
-         colored("Try clearing your browser cookies and history.", "blue"),
+         colored("Try clearing your browser cookies and history. Did it work?", "blue"),
          colored("Try turning it off and on again! Did it work?", "blue"),
          colored("Are you sure it's turned on?", "blue"),
          colored("Put it back as it was! Is it working?", "blue"),
