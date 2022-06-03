@@ -1,0 +1,2 @@
+# Lists Basic Training
+### Judge: https://judge.softuni.org/Contests/Practice/Index/1724#0
