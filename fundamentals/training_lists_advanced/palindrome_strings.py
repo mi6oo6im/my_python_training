@@ -1,5 +1,5 @@
 def is_palindrome(text_string: str):
-    reversed_text = text_string[-1::-1]
+    reversed_text = text_string[::-1]
     if text_string == reversed_text:
         return True
     else:
