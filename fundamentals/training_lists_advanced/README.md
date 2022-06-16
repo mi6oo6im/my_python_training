@@ -1,0 +1,2 @@
+# Lists Advanced Training
+### Judge: https://judge.softuni.org/Contests/Practice/Index/1730#0
