@@ -84,7 +84,9 @@ Burger Bus total profit: 6404.67 leva.
 
 
 ### 2. Coffee lover:
-See coffee_lover.png
+![coffee_lover.png](coffee_lover.png)
+
+#### Test input:
 
 Input:
 
@@ -130,8 +132,9 @@ Coffees:
 StrongCoffee OrdinaryCoffee TurkishCoffee Arabica BulkCoffee
 
 ### 3. Phone shop:
+![phone_shop.png](phone_shop.png)
 
-See phone_shop.png
+#### Test input:
 
 Input:
 
