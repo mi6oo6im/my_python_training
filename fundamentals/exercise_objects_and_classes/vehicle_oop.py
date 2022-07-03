@@ -1,9 +1,9 @@
 class Vehicle:
-    def __init__(self, type, model, price):
+    def __init__(self, type, model, price, owner=None):
         self.type = type
         self.model = model
         self.price = price
-        self.owner = None
+        self.owner = owner
 
     def buy(self, money: int, new_owner: str):
         if self.owner is None and money >= self.price:

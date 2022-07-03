@@ -1,10 +1,10 @@
 class Class:
     __students_count = 22
 
-    def __init__(self, name):
+    def __init__(self, name, students=[], grades=[]):
         self.name = name
-        self.students = []
-        self.grades = []
+        self.students = students
+        self.grades = grades
 
     def add_student(self, name: str, grade: float):
         if len(self.students) < Class.__students_count:

@@ -1,7 +1,7 @@
 class Inventory:
-    def __init__(self, __capacity: int):
+    def __init__(self, __capacity: int, items=[]):
         self.__capacity = __capacity
-        self.items = []
+        self.items = items
 
     def add_item(self, item: str):
         if len(self.items) < self.__capacity:
