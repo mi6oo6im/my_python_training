@@ -11,11 +11,12 @@ class Classifier:
     def symbols_method(self):
         return ''.join([x for x in self.input_str if not x.isalnum()])
 
-    def get_info(self):
-        print(self.numbers_method())
-        print(self.letters_method())
-        print(self.symbols_method())
+    def __repr__(self):
+        res = self.numbers_method()
+        res += f'\n{self.letters_method()}'
+        res += f'\n{self.symbols_method()}'
+        return res
 
 
 classifier = Classifier(input())
-classifier.get_info()
+print(classifier)
