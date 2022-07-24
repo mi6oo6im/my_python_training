@@ -4,4 +4,6 @@
 ### Numbers List: https://judge.softuni.org/Contests/Practice/Index/2474#2
 ### Shoot for the win: https://judge.softuni.org/Contests/Practice/Index/2305#1
 ### Moving target: https://judge.softuni.org/Contests/Practice/Index/2305#2
-### Activation Keys: https://judge.softuni.org/Contests/Practice/Index/2302#0
+### Activation keys: https://judge.softuni.org/Contests/Practice/Index/2302#0
+### Emoji detector: https://judge.softuni.org/Contests/Practice/Index/2302#1
+### P!rates: https://judge.softuni.org/Contests/Practice/Index/2302#2
