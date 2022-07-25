@@ -25,9 +25,9 @@ def damage_func(name: str, pattern: str):
     multiplier = name.count('*')
     divider = name.count('/')
     if multiplier:
-        damage *= (multiplier * 2)
+        damage *= (2 ** multiplier)
     if divider:
-        damage /= (divider * 2)
+        damage /= (2 ** divider)
     return damage
 
 
