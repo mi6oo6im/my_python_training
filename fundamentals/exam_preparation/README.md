@@ -7,4 +7,6 @@
 ### Activation keys: https://judge.softuni.org/Contests/Practice/Index/2302#0
 ### Emoji detector: https://judge.softuni.org/Contests/Practice/Index/2302#1
 ### P!rates: https://judge.softuni.org/Contests/Practice/Index/2302#2
-### Imitation Game: https://judge.softuni.org/Contests/Practice/Index/2525#0
+### Imitation Game: https://judge.softuni.org/Contests/Practice/Index/2525#0\
+### Ad Astra: https://judge.softuni.org/Contests/Practice/Index/2525#1
+### The Pianist: https://judge.softuni.org/Contests/Practice/Index/2525#2
