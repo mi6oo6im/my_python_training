@@ -11,3 +11,5 @@
 ### Ad Astra: https://judge.softuni.org/Contests/Practice/Index/2525#1
 ### The Pianist: https://judge.softuni.org/Contests/Practice/Index/2525#2
 ### World Tour: https://judge.softuni.org/Contests/Practice/Index/2518#0
+### Destination Mapper: https://judge.softuni.org/Contests/Practice/Index/2518#1
+### Plant Discovery: https://judge.softuni.org/Contests/Practice/Index/2518#2
