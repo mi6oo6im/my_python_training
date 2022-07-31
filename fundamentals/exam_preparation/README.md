@@ -14,3 +14,4 @@
 ### Destination Mapper: https://judge.softuni.org/Contests/Practice/Index/2518#1
 ### Plant Discovery: https://judge.softuni.org/Contests/Practice/Index/2518#2
 ### Secret Chat: https://judge.softuni.org/Contests/Practice/Index/2307#0
+### Mirror words: https://judge.softuni.org/Contests/Practice/Index/2307#1
