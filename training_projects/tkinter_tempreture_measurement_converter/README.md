@@ -1,7 +1,9 @@
 # Tkinter project Temperature Scale Converter
 
+
 ### Description:
 This is my first attempt of a monolith GUI project with Tkinter module.
+
 
 ### Used libraries:
 * tkinter - https://pypi.org/project/pytemp/
@@ -9,9 +11,17 @@ This is my first attempt of a monolith GUI project with Tkinter module.
 
 
 ### Preview:
-* 
+* Aplication overview:
 ![Alt text](Temperature_scales_convertor.png)
+* Value type validation:
+![Alt text](Temperature_scales_convertor_validation_err.png)
+* Output preview:
 ![Alt text](Temperature_scales_convertor_output.png)
-*
 
 
+### Demo:
+* Replit: https://replit.com/@mi6oo6im/Temperature-Scale-Converter#main.py
+
+
+### External sources:
+* QA https://www.rapidtables.com/convert/temperature/index.html
