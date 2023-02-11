@@ -2,7 +2,7 @@
 
 
 ### Description:
-This is my first attempt of a monolith GUI project with Tkinter module.
+This is my first attempt of a monolith GUI project with Tkinter module. The application uses pytemp library for the conversion logic.
 
 
 ### Used libraries:
