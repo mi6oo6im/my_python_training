@@ -10,6 +10,10 @@ This is my first attempt of a monolith GUI project with Tkinter module. The appl
 * pytemp - https://docs.python.org/3/library/tkinter.html
 
 
+### Used libraries:
+Final version: https://github.com/mi6oo6im/my_python_training/blob/main/training_projects/tkinter_tempreture_measurement_converter/Temperature_scales_convertor_with_pytemp_final.py
+
+
 ### Preview:
 * Aplication overview:  <br>
 ![Alt text](Temperature_scales_convertor.png)
