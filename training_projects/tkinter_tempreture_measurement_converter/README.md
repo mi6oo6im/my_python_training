@@ -11,7 +11,7 @@ This is my first attempt of a monolith GUI project with Tkinter module.
 
 
 ### Preview:
-* Aplication overview:
+* Aplication overview:<br>
 ![Alt text](Temperature_scales_convertor.png)
 * Value type validation:
 ![Alt text](Temperature_scales_convertor_validation_err.png)
