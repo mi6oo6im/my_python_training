@@ -5,7 +5,12 @@
 This is my first attempt of a monolith GUI project with Tkinter module. The application uses pytemp library for the conversion logic.
 
 
-### Used libraries:
+### System Requirements:
+* OS - Windows 7 or newer, Mac OS, Ubunto, Linux
+* IDE - PyCharm 2022.2 or equivalent
+* Python Interpreter - Python 3.8 or newer
+
+### Used Python Libraries:
 * tkinter - https://pypi.org/project/pytemp/
 * pytemp - https://docs.python.org/3/library/tkinter.html
 
