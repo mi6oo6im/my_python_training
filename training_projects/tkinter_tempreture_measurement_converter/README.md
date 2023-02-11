@@ -1,4 +1,4 @@
-# Tkinter project Temperature Scale Converter
+# Tkinter project: Temperature Scale Converter
 
 
 ### Description:
