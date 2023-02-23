@@ -1,8 +1,8 @@
 class SteamUser:
-    def __init__(self, username: str, games: list, played_hours=0):
+    def __init__(self, username: str, games: list):
         self.username = username
         self.games = games
-        self.played_hours = played_hours
+        self.played_hours = 0
 
     def play(self, game, hours):
         if game in self.games:
