@@ -1,2 +1,2 @@
-# First Steps in OOP Exercise
-### Judge: https://judge.softuni.org/Contests/Compete/Index/1935#0
+# Classes and Objects Training
+### Judge: https://judge.softuni.org/Contests/Practice/Index/1936#0
