@@ -2,7 +2,7 @@
 ### Judge: Not Implemented
 
 1. Single Responsibility Principle (SRP): A class should have only one reason to change.
-```# Example
+``` python# Example
 class EmailSender:
     def send_email(self, email_address: str, message: str) -> None:
         # Code to send email```
