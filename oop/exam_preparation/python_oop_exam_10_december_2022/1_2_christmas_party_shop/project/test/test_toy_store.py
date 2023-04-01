@@ -1,1 +1,0 @@
-from project.toy_store import ToyStore
