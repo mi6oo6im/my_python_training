@@ -68,7 +68,7 @@ class FoodOrdersApp:
 
         meals_with_insufficient_quantity = [m for m in meals_to_order if m.quantity < meal_names_and_qty_from_order[m.name]] # next(filter(lambda m: m.quantity < meal_names_and_qty_from_order[m.name], meals_to_order))
         if meals_with_insufficient_quantity:
-            raise Exception(f"Not enough quantity of {meals_with_insufficient_quantity[0].__class__.name}: {meals_with_insufficient_quantity[0].name}!")
+            raise Exception(f"Not enough quantity of {meals_with_insufficient_quantity[0].__class__.__name__}: {meals_with_insufficient_quantity[0].name}!")
         client.shopping_cart.extend(ordered_meals)
         for meal in ordered_meals:
             meal_quantity = meal.quantity
@@ -84,7 +84,8 @@ class FoodOrdersApp:
             raise Exception("There are no ordered meals!")
 
         for meal in client.shopping_cart:
-            self.menu[meal.name] += meal.quantity
+            meal_to_return = next(filter(lambda m: m.name, self.menu))
+            meal_to_return.quantity += meal.quantity
 
         client.shopping_cart.clear()
         client.bill = 0
