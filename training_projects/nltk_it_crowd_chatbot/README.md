@@ -10,5 +10,5 @@ support chatbot with hardcoded questions and answers. I hope you enjoy testing i
 
 ### Preview:
 
-![Alt text](https://github.com/mi6oo6im/my_python_training/blob/main/training_projects/it_crowd_chatbot/it_crowd_chatbot_replit.png)
-![Alt text](https://github.com/mi6oo6im/my_python_training/blob/main/training_projects/it_crowd_chatbot/it_crowd_chatbot.png)
+![Alt text](it_crowd_chatbot_replit.png)
+![Alt text](it_crowd_chatbot.png)
